@@ -1,0 +1,6 @@
+framework module Pods_EBangla {
+  umbrella header "Pods-EBangla-umbrella.h"
+
+  export *
+  module * { export * }
+}
