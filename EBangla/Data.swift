@@ -73,3 +73,6 @@ var book12 = Book(name: "টাইম ম্যানেজমেন্ট", ima
 public var Booklist : [Book] = [ book1, book2, book3, book4, book5, book6, book7, book8, book9, book10, book11, book12]
 
 
+public var WishList: [Book] = []
+
+public var CartList : [Book] = []

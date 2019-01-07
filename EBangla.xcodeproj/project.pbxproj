@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C5FA0851DBA1037EF60A405 /* Pods_EBangla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B06AA01F1181310EF21F39 /* Pods_EBangla.framework */; };
+		CE19C44B21E242CC00B4F3C3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19C44921E242CC00B4F3C3 /* CollectionViewCell.swift */; };
+		CE19C44E21E2536200B4F3C3 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19C44D21E2536200B4F3C3 /* BookDetailsViewController.swift */; };
+		CE19C45021E2772100B4F3C3 /* WishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19C44F21E2772100B4F3C3 /* WishListTableViewCell.swift */; };
+		CE19C45221E28E6200B4F3C3 /* CartListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19C45121E28E6200B4F3C3 /* CartListTableViewCell.swift */; };
 		CEABD2B121E213B50092921C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD2B021E213B50092921C /* AppDelegate.swift */; };
-		CEABD2B321E213B50092921C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD2B221E213B50092921C /* ViewController.swift */; };
 		CEABD2B621E213B50092921C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEABD2B421E213B50092921C /* Main.storyboard */; };
 		CEABD2B821E213B90092921C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEABD2B721E213B90092921C /* Assets.xcassets */; };
 		CEABD2BB21E213B90092921C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEABD2B921E213B90092921C /* LaunchScreen.storyboard */; };
 		CEABD2C321E2165E0092921C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD2C221E2165E0092921C /* Data.swift */; };
+		CEABD2C521E229390092921C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD2C421E229390092921C /* HomeViewController.swift */; };
+		CEABD2C721E229540092921C /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD2C621E229540092921C /* CartViewController.swift */; };
+		CEABD2C921E2296C0092921C /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD2C821E2296C0092921C /* WishListViewController.swift */; };
+		CEABD2CB21E22F560092921C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABD2CA21E22F560092921C /* TableViewCell.swift */; };
+		CEAC16AE21E2BF3600131887 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC16AD21E2BF3600131887 /* CheckOutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02B06AA01F1181310EF21F39 /* Pods_EBangla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EBangla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		638D5AFC214D90C1685EE7F9 /* Pods-EBangla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBangla.debug.xcconfig"; path = "Target Support Files/Pods-EBangla/Pods-EBangla.debug.xcconfig"; sourceTree = "<group>"; };
+		69ED239C9A73B9CE7A504514 /* Pods-EBangla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBangla.release.xcconfig"; path = "Target Support Files/Pods-EBangla/Pods-EBangla.release.xcconfig"; sourceTree = "<group>"; };
+		CE19C44921E242CC00B4F3C3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CE19C44D21E2536200B4F3C3 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		CE19C44F21E2772100B4F3C3 /* WishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListTableViewCell.swift; sourceTree = "<group>"; };
+		CE19C45121E28E6200B4F3C3 /* CartListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartListTableViewCell.swift; sourceTree = "<group>"; };
 		CEABD2AD21E213B50092921C /* EBangla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBangla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEABD2B021E213B50092921C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEABD2B221E213B50092921C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEABD2B521E213B50092921C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEABD2B721E213B90092921C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEABD2BA21E213B90092921C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEABD2BC21E213B90092921C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEABD2C221E2165E0092921C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CEABD2C421E229390092921C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CEABD2C621E229540092921C /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		CEABD2C821E2296C0092921C /* WishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
+		CEABD2CA21E22F560092921C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CEAC16AD21E2BF3600131887 /* CheckOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5FA0851DBA1037EF60A405 /* Pods_EBangla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A88AF8560D8B45427B0D132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				638D5AFC214D90C1685EE7F9 /* Pods-EBangla.debug.xcconfig */,
+				69ED239C9A73B9CE7A504514 /* Pods-EBangla.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4BC53620C43FD54373ACDA56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02B06AA01F1181310EF21F39 /* Pods_EBangla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEABD2A421E213B50092921C = {
 			isa = PBXGroup;
 			children = (
 				CEABD2AF21E213B50092921C /* EBangla */,
 				CEABD2AE21E213B50092921C /* Products */,
+				1A88AF8560D8B45427B0D132 /* Pods */,
+				4BC53620C43FD54373ACDA56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +97,20 @@
 			isa = PBXGroup;
 			children = (
 				CEABD2B021E213B50092921C /* AppDelegate.swift */,
-				CEABD2B221E213B50092921C /* ViewController.swift */,
+				CE19C45121E28E6200B4F3C3 /* CartListTableViewCell.swift */,
 				CEABD2B421E213B50092921C /* Main.storyboard */,
 				CEABD2B721E213B90092921C /* Assets.xcassets */,
 				CEABD2B921E213B90092921C /* LaunchScreen.storyboard */,
 				CEABD2BC21E213B90092921C /* Info.plist */,
 				CEABD2C221E2165E0092921C /* Data.swift */,
+				CEABD2C421E229390092921C /* HomeViewController.swift */,
+				CEABD2C621E229540092921C /* CartViewController.swift */,
+				CEABD2C821E2296C0092921C /* WishListViewController.swift */,
+				CEABD2CA21E22F560092921C /* TableViewCell.swift */,
+				CE19C44921E242CC00B4F3C3 /* CollectionViewCell.swift */,
+				CE19C44D21E2536200B4F3C3 /* BookDetailsViewController.swift */,
+				CE19C44F21E2772100B4F3C3 /* WishListTableViewCell.swift */,
+				CEAC16AD21E2BF3600131887 /* CheckOutViewController.swift */,
 			);
 			path = EBangla;
 			sourceTree = "<group>";
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEABD2BF21E213B90092921C /* Build configuration list for PBXNativeTarget "EBangla" */;
 			buildPhases = (
+				7D34110F065D0741CF225AD6 /* [CP] Check Pods Manifest.lock */,
 				CEABD2A921E213B50092921C /* Sources */,
 				CEABD2AA21E213B50092921C /* Frameworks */,
 				CEABD2AB21E213B50092921C /* Resources */,
+				ECCE3FD023D57B31E19EF7CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +183,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D34110F065D0741CF225AD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EBangla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECCE3FD023D57B31E19EF7CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EBangla/Pods-EBangla-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGSnackbar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EBangla/Pods-EBangla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEABD2A921E213B50092921C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEABD2B321E213B50092921C /* ViewController.swift in Sources */,
+				CEAC16AE21E2BF3600131887 /* CheckOutViewController.swift in Sources */,
+				CEABD2C721E229540092921C /* CartViewController.swift in Sources */,
+				CEABD2C921E2296C0092921C /* WishListViewController.swift in Sources */,
+				CE19C44E21E2536200B4F3C3 /* BookDetailsViewController.swift in Sources */,
 				CEABD2C321E2165E0092921C /* Data.swift in Sources */,
+				CE19C44B21E242CC00B4F3C3 /* CollectionViewCell.swift in Sources */,
+				CE19C45021E2772100B4F3C3 /* WishListTableViewCell.swift in Sources */,
+				CEABD2CB21E22F560092921C /* TableViewCell.swift in Sources */,
+				CE19C45221E28E6200B4F3C3 /* CartListTableViewCell.swift in Sources */,
 				CEABD2B121E213B50092921C /* AppDelegate.swift in Sources */,
+				CEABD2C521E229390092921C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +391,7 @@
 		};
 		CEABD2C021E213B90092921C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638D5AFC214D90C1685EE7F9 /* Pods-EBangla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +410,7 @@
 		};
 		CEABD2C121E213B90092921C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69ED239C9A73B9CE7A504514 /* Pods-EBangla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
